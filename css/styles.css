@@ -1,0 +1,146 @@
+#home-container {}
+
+#hearder {
+    border-bottom: 1px solid #306F95;
+}
+.container-fluid {
+    max-width: 1600px;
+}
+
+#hearder .logo {
+    display: contents;
+}
+
+#hearder .logo img {
+    max-width: 100px;
+}
+
+#hearder .logo .title-logo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 51px;
+}
+
+#hearder .left-items .button-wallet {
+    background: #306F95;
+    border-radius: 20px;
+    border: none;
+    width: 162px;
+    height: 42px;
+    color: #FFFFFF;
+}
+.left-items .right-button {
+    text-align: right !important;
+}
+
+#hearder .nav-item {
+    width: 25%;
+    text-align: center;
+}
+
+#hearder .left-items {
+    width: 75%;
+}
+#hearder .btn-search {
+    background-color: #FFFFFF;
+    border: 1px solid #306F95;
+    border-radius: 20px;
+}
+#hearder .btn-search:hover {
+    background: #306F95;
+    color: #FFFFFF;
+}
+.input-search {
+    border-radius: 20px;
+}
+
+.container-contents {
+    display: flex;
+    margin-top: 30px;
+}
+.left-menu {
+    font-size: 16px;
+    line-height: 15px;
+    color: #000000;
+    font-weight: 300;
+}
+.left-menu .item-left-nav {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 1px solid #306F95;
+    padding-bottom: 15px;
+}
+.left-sub-item {
+    height: 40px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.left-sub-item  a {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+.item-active {
+    background-color: #306F95;
+    color: #FFFFFF;
+}
+.item-active a {
+    color: #FFFFFF;
+}
+
+.card-item {
+    padding: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-color: #306F95;
+}
+.card-body h5 {
+    text-align: center;
+    margin-top: -10px;
+}
+.card-body .info-container {
+    display: flex;
+    /* justify-content: space-between; */
+    text-align: center;
+    margin-top: 20px;
+}
+.card-body .info-container .info-item {
+    width: 50%;
+}
+.card-body .info-container .info-item-left {
+    border-right: 1px solid #C4C4C4;
+    padding-right: 18px;
+}
+.card-body .info-container .info-item-right {
+    padding-left: 18px;
+}
+
+.card-body .info-container .text-hightline {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22px;
+    color: #000000;
+}
+.row-line {
+    margin: 15px 0;
+}
+.info-item .name-game {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    color: #000000;
+}
+.border-line {
+    border-bottom: 1px solid  #C4C4C4;
+    padding-bottom: 5px;
+    margin-top: 8px !important;
+}
+.pt-0 {
+    padding-top: 0px !important;
+}
